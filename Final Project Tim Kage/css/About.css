@@ -1,0 +1,26 @@
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            background: url('../Foto/rawr.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        
+        .content-section {
+            margin-top: -50px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
