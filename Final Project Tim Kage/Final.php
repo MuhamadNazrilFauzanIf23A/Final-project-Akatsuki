@@ -1,6 +1,6 @@
 <?php
-require 'DB/Dbcard.php';
-$result = $conn->query("SELECT * FROM cardlist"); 
+require 'DB/Dbzahra.php';
+$result = $conn->query("SELECT * FROM listmobil"); 
 $list_mobil = $result->fetch_all();
 ?>
 
@@ -130,7 +130,7 @@ $list_mobil = $result->fetch_all();
       </div>
       <div class="modal-body">
         <!-- Isi modal -->
-        <p>- Berikut adalah syarat lepas kunci bagi karyawan</p>
+        <p>  Berikut adalah syarat lepas kunci bagi karyawan</p>
         <p>- Wajib memiliki SIM A</p>
         <p>- KTP</p>
         <p>- Id Card Karyawan</p>
@@ -151,7 +151,7 @@ $list_mobil = $result->fetch_all();
       </div>
       <div class="modal-body">
         <!-- isi modal -->
-        <p>- Berikut adalah syarat lepas kunci bagi nonkaryawan</p>
+        <p>  Berikut adalah syarat lepas kunci bagi nonkaryawan</p>
         <p>- Wajib memiliki SIM A</p>
         <p>- KTP, Kartu keluarga, Buku nikah, & Akta kelahiran</p>
         <p>- Ijazah minimal SMA/Sederajat</p>
